@@ -26,7 +26,7 @@ const Son = (props) => {
 
     return (
         <div>
-            我是{props.name} {props.num}
+            我是{props.name} {props.num}是
             <button onClick={()=> handleTobaby()}>111</button>
         </div>
     )
