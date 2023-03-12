@@ -7,7 +7,7 @@ const App = () => {
     const [num, setnum] = useState(1)
 
     const getdata = (data) => {
-        console.log("接收子组件传来的", data);
+        console.log("接收子组件来的", data);
     }
     return(
         <div>
